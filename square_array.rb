@@ -2,7 +2,7 @@ def square_array(array)
   # your code here
   
  array.each do |arr|
-    puts arr**2
-    
+    arr**2
+    arr
   end
 end
