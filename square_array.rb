@@ -4,8 +4,6 @@ def square_array(array)
    new_array = []
   array.each do |arr|
    new_square << arr**2
-    
-    binding.pry
-  end
+   end
     new_square
 end
