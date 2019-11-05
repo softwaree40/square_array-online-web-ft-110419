@@ -3,6 +3,6 @@ def square_array(array)
   
  array.each do |arr|
  
-    arr**0.5
+    return arr**2
   end
 end
